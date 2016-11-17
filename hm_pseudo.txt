@@ -1,0 +1,22 @@
+Pseudo code for Hangman game:
+
+Descriptive:
+
+Hangman is a guessing game between a user's input (one person or a group of people) and  a computer.  The computer will randomly choose a word in a given subject (theme).  In this case, the theme will be Chess.  The user will try to guess each letter of the hidden word.  The hidden word is represented by a group of dashes. If a letter chosen is correct (win), the letter  then replaces the corresponding dash.  Eventually the word is spelled out and the game is over. The game restarts with a new word, and it begins over.
+
+https://en.wikipedia.org/wiki/Hangman_(game)
+
+Process:
+
+1: 	Computer randomly chooeses word
+2:	The word is displayed as a group of dashes. Each dash represents letters from the word.
+3:	The user chooses a letter (lower or upper case)
+4:	If the letter is correct, it replaces the dash in it designated spot.
+5:	If the letter is incorrect, it is printed below the hidden word.  This is let the user know, that this letter has already been chosen.
+6:	At some point all of the dashes have been replaced with the correct letter. The word will eventually be spelled out. This will reset the game.
+
+
+
+
+
+<!-- just M:€  -->

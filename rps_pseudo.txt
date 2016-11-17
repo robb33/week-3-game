@@ -1,0 +1,26 @@
+Pseudo code for Rock, Paper Scissors game:
+
+Descriptive:
+
+Two people face each other to play.  Each player taps their outstretched hand three times.  After the third tap, each player randomly chooses to present paper (round fist), scissor (two fingers), or paper(extends plam face down)
+
+Paper covers Rock: win
+Rock crushes Scissors: win
+Scissors cut Paper: win
+
+If each player chooses the same ex: Paper/Paper the result is a tie
+
+https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors
+
+
+Process:
+
+1: single player selects a letter r (rock), p (paper), or s (scissor)
+2: computer randomly selects a letter r, p, or s
+3: 
+4:
+5: win score recorded
+6: loss score recorded
+7: tie score recored
+
+*/ :€ */
