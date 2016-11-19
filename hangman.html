@@ -3,11 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>About | Robert Benbenek</title>
-	<link rel="stylesheet" type="text/css" href="<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<title>Hangman Game</title>
+
+	<!-- CSS info -->
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style_new.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Javascript info -->
+
+  	<script src="assets/javascript/hmgame.js"></script>
+
 </head>
 <body>
 		<nav class="navbar navbar-default">
@@ -19,7 +27,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">Robert Benbenek</a>
+		      <a class="navbar-brand" href="index.html">Robert Benbenek</a>
 		    </div>
 
 		    <div class="collapse navbar-collapse">
@@ -32,9 +40,62 @@
 		  </div>
 		</nav>
 
+<!-- beginning of script to be moved later -->
+<script type="text/javascript">
+
+
+debugger;
+
+var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
+        'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
+        't', 'u', 'v', 'w', 'x', 'y', 'z'];
+
+var word;
+var guess;
+
+var chesspieces = [king, queen, bishop, knight, rook, pawn];
+
+debugger;
+// create alphabet ul
+  var buttons = function () {
+    myButtons = document.getElementById('buttons');
+    letters = document.createElement('ul');
+
+    for (var i = 0; i < alphabet.length; i++) {
+      letters.id = 'alphabet';
+      list = document.createElement('li');
+      list.id = 'letter';
+      list.innerHTML = alphabet[i];
+      check();
+      myButtons.appendChild(letters);
+      letters.appendChild(list);
+    }
+  }
+
+
+debugger;
+// for loop for letters
+
+for (var i = 0; i < alphabet.length; i++) {
+	alphabet[i]
+}
+
+debugger;
+play();
+
+debugger;
+// need a reset button
+
+	// document.getElementById("myform").reset();
 
 
 
+</script>
+
+<!-- ending of script to be moved later -->
+
+
+<div id="buttons"></div> 
 
 
 
