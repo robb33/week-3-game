@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RPS</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // 1. computer pick choice of rock paper scissors
+      // 2. user presses rocks paper scissors
+      // 3. compare see who wins
+      // 4. alert who wins
+
+      document.write('hi');
+      document.write('<br>people');
+
+      var options = ['r', 'p', 's'];
+
+      document.onkeyup = function(event){
+        var key = event.key;
+
+        //var computerChoice = 'p';
+        var computerChoice = options[Math.floor(Math.random()*options.length)];
+
+        if (key == 'r' && computerChoice == 'p'){
+          console.log('computer won');
+        }
+
+        console.log(key);
+      }
+
+      </script>
+  </body>
+</html>

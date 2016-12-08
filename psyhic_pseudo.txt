@@ -3,7 +3,7 @@ Pseudo code for Psychic game:
 Descriptive:
 
 This is a game where a user(player) trys to guess the letter that the  Computer has randomly chosen. 
-The Computer will randomly pick letter from a-z.  The user will try to match this.  The result will either be
+The Computer will randomly pick letter from a-z.  The user will be given x amount of times to do this in.  If a single letter matches computer, it is considered a win.  If after x amount of times there is no match, it is considered a loss.  After either of these conditions the game resets.
 
  
 
@@ -14,9 +14,9 @@ Process:
 
 1: 	Computer randomly picks a letter from a-z
 2: 	User randomly picks a letter from a-z
-3:	If there is a match.  This is tallied as a win
-4:	If thers isn't a match. This is tallied as a loss
-5:
+3:	If there is a single letter match.  This is tallied as a win and the game resets
+4:	If thers isn't a match, after x amount of tries. This is tallied as a loss and the game resets
+5:	The user's letters are printed out on the screen, seperated by commas
 6:
 
 
